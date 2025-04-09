@@ -10,7 +10,7 @@ namespace UI
         [SerializeField] private List<Page> pages;
         
         private UIDocument _uiDocument;
-        private VisualElement _root;
+        private VisualElement _mainRoot;
         
         private Button _previousPageButton;
         private Button _nextPageButton;

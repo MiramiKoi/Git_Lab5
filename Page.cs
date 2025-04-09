@@ -7,7 +7,7 @@ namespace UI
     {   
         [field: SerializeField] public string PageTitle { get; private set; }
     
-        protected VisualElement PageRoot;
+        protected VisualElement MainRoot;
         protected bool IsActive;
     
         protected abstract void OnInitialize();

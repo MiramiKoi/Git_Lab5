@@ -28,7 +28,7 @@ namespace UI
 
         private void InitializeButtons()
         {
-            _nextPageButton = _root.Q<Button>("NextPageButton");
+            _nextPageButton = _root.Q<Button>("NextButton");
             _previousPageButton = _root.Q<Button>("PreviousPageButton");
             
             _nextPageButton.RegisterCallback<ClickEvent>(OnNextPageButtonClicked);

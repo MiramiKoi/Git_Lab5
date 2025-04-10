@@ -55,7 +55,7 @@ namespace UI
 
                 if (pageElement == null)
                 {
-                    Debug.LogWarning($"Элемент для страницы {page.GetType().Name} в {_uiDocument} не найден");
+                    Debug.LogWarning($"Элемент для страницы {page.GetType().Name} в {_uiDocument} не удается найти");
                     continue;
                 }
                 

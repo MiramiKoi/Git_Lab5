@@ -5,7 +5,7 @@ namespace UI
 {
     public abstract class Page : MonoBehaviour
     {   
-        [field: SerializeField] public string PageTitle { get; private set; }
+        [field: SerializeField] public string PageTitle { get; set; }
     
         protected VisualElement MainRoot;
         protected bool IsActive;

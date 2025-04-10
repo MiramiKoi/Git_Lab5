@@ -37,7 +37,7 @@ namespace UI
         
         private void OnNextPageButtonClicked(ClickEvent click)
         {
-            SwitchPage(1);
+            SwitchPage(15);
             _nextPageButton.Blur();
         }
 

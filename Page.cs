@@ -27,7 +27,7 @@ namespace UI
         {
             if (PageRoot == null) return;
             
-            IsActive = true;
+            IsActive = false;
             PageRoot.style.display = DisplayStyle.Flex;
             OnActivate();
         }

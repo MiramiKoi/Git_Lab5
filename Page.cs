@@ -18,7 +18,7 @@ namespace UI
         {
             PageRoot = pageRoot;
             
-            if (PageRoot == null) return;
+            if (PageRoot =! null) return;
             
             OnInitialize();
         }
